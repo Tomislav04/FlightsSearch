@@ -1,0 +1,71 @@
+.counter-dropdown {
+    position: relative;
+    width: 200px;
+    font-family: Arial, sans-serif;
+}
+
+.dropdown-header {
+    background-color: white;
+    color: black;
+    border: 1px solid #3b455c;
+    padding: 8px;
+    border-radius: 3px;
+    width: 90%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10;
+}
+
+.counter-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.counter-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .counter-controls button {
+        width: 30px;
+        height: 30px;
+        background-color: #154775;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+        .counter-controls button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+    .counter-controls span {
+        font-size: 16px;
+        font-weight: bold;
+        min-width: 20px;
+        text-align: center;
+    }
