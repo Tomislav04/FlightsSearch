@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightsSearch", "FlightsSearch\FlightsSearch.csproj", "{952B26CD-55D8-4B47-A97F-8EB2C3FB4C33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Data", "01 Data", "{25357B3A-FA72-481B-869C-2892A28E8F57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Services", "02 Services", "{8B032674-7C84-4BBA-BF62-76FA1DA40522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BF48D614-F5AB-4E36-8D57-A55C16328D85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Web apps", "03 Web apps", "{C83D3E24-0ED2-4AA9-85E6-ED4B851AC604}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Testing", "04 Testing", "{197D33BA-8801-4CFF-84D7-A77FD7958C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{E4172234-A640-4898-AC8A-46D77344CF17}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "CheapFlightsSearch.Client", "..\CheapFlightsSearch\cheapflightssearch.client\CheapFlightsSearch.Client.esproj", "{143027E9-8DD2-41E3-A729-79C6EF97EAC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{952B26CD-55D8-4B47-A97F-8EB2C3FB4C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952B26CD-55D8-4B47-A97F-8EB2C3FB4C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952B26CD-55D8-4B47-A97F-8EB2C3FB4C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952B26CD-55D8-4B47-A97F-8EB2C3FB4C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF48D614-F5AB-4E36-8D57-A55C16328D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF48D614-F5AB-4E36-8D57-A55C16328D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF48D614-F5AB-4E36-8D57-A55C16328D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF48D614-F5AB-4E36-8D57-A55C16328D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4172234-A640-4898-AC8A-46D77344CF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4172234-A640-4898-AC8A-46D77344CF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4172234-A640-4898-AC8A-46D77344CF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4172234-A640-4898-AC8A-46D77344CF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143027E9-8DD2-41E3-A729-79C6EF97EAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143027E9-8DD2-41E3-A729-79C6EF97EAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143027E9-8DD2-41E3-A729-79C6EF97EAC9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{143027E9-8DD2-41E3-A729-79C6EF97EAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143027E9-8DD2-41E3-A729-79C6EF97EAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143027E9-8DD2-41E3-A729-79C6EF97EAC9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{952B26CD-55D8-4B47-A97F-8EB2C3FB4C33} = {C83D3E24-0ED2-4AA9-85E6-ED4B851AC604}
+		{BF48D614-F5AB-4E36-8D57-A55C16328D85} = {25357B3A-FA72-481B-869C-2892A28E8F57}
+		{E4172234-A640-4898-AC8A-46D77344CF17} = {8B032674-7C84-4BBA-BF62-76FA1DA40522}
+		{143027E9-8DD2-41E3-A729-79C6EF97EAC9} = {C83D3E24-0ED2-4AA9-85E6-ED4B851AC604}
+	EndGlobalSection
+EndGlobal
